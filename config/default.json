@@ -1,0 +1,22 @@
+{
+  "mongo": {
+    "development": {
+      "name": "nearby-test",
+      "uri": "mongodb://localhost/nearby-test"
+    },
+    "staging": {
+      "name": "staging",
+      "username": "staging",
+      "password": "password",
+      "server": "candidate.62.mongolayer.com",
+      "port": 10017
+    }
+  },
+  "paths": {
+    "public": "public"
+  },
+  "server": {
+    "port": 3000
+  }
+}
+
